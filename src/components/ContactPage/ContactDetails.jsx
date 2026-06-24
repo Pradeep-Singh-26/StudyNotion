@@ -15,7 +15,7 @@ const contactDetails = [
     heading: "Visit us",
     description: "Come and say hello at our office HQ.",
     details:
-      "Pradeep Singh, D.D Nagar Gwalior",
+      "Pradeep Singh, GL-394, Gwalior, M.P, 474020",
   },
   {
     icon: "IoCall",
