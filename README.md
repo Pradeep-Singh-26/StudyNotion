@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 StudyNotion - Full Stack Learning Management System (LMS)
 
 A fully functional Learning Management System (LMS) built using the MERN Stack that enables students to learn online, instructors to create and manage courses, and administrators to manage course categories and platform structure.
@@ -391,3 +392,7 @@ Stores completed lectures and progress tracking.
 **Pradeep Singh**
 
 Built during Semester Break after 4th Semester to gain hands-on experience with full-stack web development, scalable backend architecture, authentication systems, analytics dashboards, and role-based access control using the MERN Stack.
+=======
+# StudyNotion
+An Online Education Platform
+>>>>>>> c6344026a2efe76f49e8ae804e2933ca7053fb16

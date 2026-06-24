@@ -32,6 +32,7 @@ router.post(
 router.post(
   "/directEnroll",
   auth,
+  isStudent,
   directEnroll
 )
 

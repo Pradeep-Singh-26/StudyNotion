@@ -24,9 +24,6 @@ const { auth } = require("../middlewares/auth")
 
 // Route for user login
 router.post("/login", login)
-router.get("/test", (req,res)=>{
-    res.json({message:"working"});
-});
 console.log("User routes file loaded");
 // Route for user signup
 router.post("/signup", signup)
