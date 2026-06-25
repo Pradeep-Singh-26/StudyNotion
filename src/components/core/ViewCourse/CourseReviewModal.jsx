@@ -87,12 +87,21 @@ export default function CourseReviewModal({ setReviewModal }) {
               <textarea
                 id="courseExperience"
                 placeholder="Add Your Experience"
-                {...register("courseExperience", { required: true })}
-                className="form-style resize-x-none min-h-[130px] w-full"
+                {...register("courseExperience", {
+                  required: "Please add your experience",
+                  validate: (value) =>
+                    value.trim().length > 0 || "Review cannot contain only spaces",
+                  minLength: {
+                    value: 5,
+                    message: "Review must be at least 5 characters long",
+                  },
+                })}
+                className="form-style resize-none min-h-[130px] w-full"
               />
+
               {errors.courseExperience && (
                 <span className="ml-2 text-xs tracking-wide text-pink-200">
-                  Please Add Your Experience
+                  {errors.courseExperience.message}
                 </span>
               )}
             </div>
